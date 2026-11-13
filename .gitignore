@@ -1,0 +1,44 @@
+# Rust
+/target/
+**/target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Python / maturin
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# WASM
+pkg/
+
+# Benchmarks / profiling output
+criterion/
+*.profraw
+flamegraph.svg
+
+# Simulation output
+*.dcd
+*.xtc
+*.trr
+*.chk
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.*
